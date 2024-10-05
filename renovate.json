@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "groupName": "all dependencies",
+      "groupSlug": "all-dependencies"
+    }
+  ],
+  "gitAuthor": "Your Name <your-email@example.com>",
+  "platform": "github",
+  "repositories": [
+    "your-username/renovate-ci-bundling"
+  ]
+}
