@@ -13,7 +13,7 @@ jobs:
 
         uses: renovatebot/github-action@v32.241.11
 =======
-        uses: renovatebot/github-action@v40.3.1
+        uses: renovatebot/github-action@v40.3.2
 
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
